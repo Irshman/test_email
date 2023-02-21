@@ -1,0 +1,192 @@
+<mjml>
+  <mj-head>
+    <mj-title>FGFOX</mj-title>
+    <mj-preview>FGFOX</mj-preview>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+    <mj-style>
+
+    .hello-block {
+      position: relative;
+      top: -220px;
+    }
+
+    .bird-one {
+      position: absolute;
+      right: -30px;
+      top: -90px;
+    }
+    .bird-two {
+      position: absolute;
+      left: 0px;
+      bottom: 35px;
+    }
+    .bird-three {
+      position: absolute;
+      right: -40px;
+      bottom: 20px;
+    }
+    .btn-1 {
+      position: relative;
+      top: -83px;
+    }
+
+    .img-btn-left {
+      position: relative;
+    }
+
+    .btn-2 {
+      position:absolute;
+      top: 35%;
+      left: 15%;
+    }
+
+    .btn-3 {
+      position: absolute;;
+      top: 85%;
+      left: 15%;
+    }
+
+    .img-btn-right {
+      position: relative;
+    }
+
+    .btn-4 {
+      position: absolute;;
+      top: 78%;
+      left: 15%;
+    } 
+
+    .items {
+      position: relative;
+      top: -235px;
+    }
+    .info {
+      position: relative;
+      top: -220px;
+    }
+
+    .bird-four {
+      position: absolute;
+      top: -30px;
+      left: -25px;
+    }
+    .bird-five {
+      position: absolute;
+      bottom: -30px;
+      right: -25px;
+    }
+    .parent-wrap {
+      position: relative;
+    }
+    .wrap-text {
+      position: absolute;
+      top:23px;
+    }
+    .wrap-btn {
+      position: absolute;
+      top:120px;
+    }
+
+    .navbar {
+      position: relative;
+      top: -200px;
+    }
+
+    .footer {
+      position: relative;
+      top: -230px
+    }
+
+    .bird-six {
+      position: absolute;
+      left: -30px;
+      bottom: -2px;
+    }
+    </mj-style>
+  </mj-head>
+  <mj-body width='600px' height='100%' background-color="#1F1032">
+    
+    <mj-wrapper padding='0px'  background-url='./img/bg.jpg' background-size="cover" > <!--  background-repeat='no-repeat' -->
+      <!-- Header -->
+      <mj-section padding='0px'  >
+        <mj-column padding-top='0px'>
+          <mj-image padding='0' width="600px" src="./img/main.png"></mj-image>
+        </mj-column>
+      </mj-section>
+
+      <!-- Hello block  -->
+      <mj-section padding="0px 20px 10px" css-class="hello-block">
+        <mj-column padding='0px'>
+          <mj-image css-class='bird-one' src="./img/one.png" width='143px' />
+          <mj-image src="./img/hello.png" />
+          <mj-button css-class='btn-1'  href="#" background-color="#B0E31B" border-radius='20px' width='162px' color="#383E4B" font-size='14px' line-height='15px' font-weight='600' align="center">
+          ACTIVATE 
+        </mj-button>
+        <mj-image css-class='bird-two' src="./img/two.png" width='96px' />
+        <mj-image css-class='bird-three' src="./img/one.png" width='66px' />
+        </mj-column>
+      </mj-section>  
+
+    <!-- Images block  -->
+    <mj-section padding='0px' css-class='items'>
+        <mj-column css-class='img-btn-left' padding='0px'>
+          <mj-image src="./img/monday.png" />
+          <mj-button css-class='btn-2'  href="#" background-color="#B0E31B" border-radius='20px' width='162px' color="#383E4B" font-size='14px' line-height='15px' font-weight='600' align="center">
+          MORE 
+          </mj-button>
+          <mj-image src="./img/thursday.png" />
+          <mj-button css-class='btn-3'  href="#" background-color="#B0E31B" border-radius='20px' width='162px' color="#383E4B" font-size='14px' line-height='15px' font-weight='600' align="center">
+          MORE 
+          </mj-button>
+        </mj-column>
+      <mj-column css-class='img-btn-right' padding='0px'>
+        <mj-image css-class='img-btn-4' src="./img/vip.png" />
+        <mj-button css-class='btn-4'  href="#" background-color="#B0E31B" border-radius='20px' width='162px' color="#383E4B" font-size='14px' line-height='15px' font-weight='600' align="center">
+          MORE 
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding='0px' css-class='info'>
+      <mj-column padding='0px'>
+       <mj-image css-class='bird-four' src="./img/two.png" width='44px' />
+        <mj-image css-class='parent-wrap' src='./img/item.png' />
+        <mj-text padding='0px 0px 0px 45px' css-class="wrap-text" font-size="16px" padding="9px" align='center' color="#FFFFFF" font-weight="300"><p style='width: 210px'>Please respond to two simple questions to help us improve for you.</p></mj-text>
+        <mj-button padding='0px 0px 0px 65px' css-class="wrap-btn"  href="#" background-color="#B0E31B" border-radius='20px' width='171px' color="#383E4B" font-size='14px' line-height='15px' font-weight='600' align="center">
+          LEAVE FEEDBACK 
+        </mj-button>
+      </mj-column>
+      <mj-column padding='0px'>
+        <mj-image css-class='parent-wrap' src='./img/item.png' />
+        <mj-text padding='0px 0px 0px 45px' css-class="wrap-text" font-size="16px" padding="9px" align='center' color="#FFFFFF" font-weight="300"><p style='width: 210px;'>Do you need any help? Our support managers are always on-line.</p></mj-text>
+        <mj-button padding='0px 0px 0px 75px' css-class="wrap-btn" href="#" background-color="#B0E31B" border-radius='20px' width='162px' color="#383E4B" font-size='14px' line-height='15px' font-weight='600' align="center">
+          SUPPORT 
+        </mj-button>
+        <mj-image css-class='bird-five' src="./img/three.png" width='86px' />
+      </mj-column>
+    </mj-section>
+
+     <mj-section css-class='navbar'>
+      <mj-column>
+        <mj-navbar align='center'>
+            <mj-navbar-link href="#" font-size='14px' text-decoration='underline' font-weight="700" line-height='15px'  color="#ffffff">Terms and Conditions</mj-navbar-link>
+            <mj-navbar-link href="#" font-size='14px' text-decoration='underline' font-weight="700" line-height='15px' color="#ffffff">Unsubscribe</mj-navbar-link>
+            <mj-navbar-link href="#" font-size='14px' text-decoration='underline' font-weight="700" line-height='15px'  color="#ffffff">Privacy Policy</mj-navbar-link>
+        </mj-navbar>
+      </mj-column>
+    </mj-section>
+
+     <mj-section css-class='footer'>
+      <mj-column width='480px'>
+        <mj-text color ="#ffffff" align="center" font-size='14px' line-height='15px'>
+          <p>You received this email because you are registered at FgFox and accepted General Terms and Conditions of our project.</p>
+          <p>Fgfox.com website is licensed and regulated under license 365/JAZ Sub License GLH-OCCHKTW0703032017 (dated March 3, 2017) and operates under the Master License of Game Service Provider, N.V. No. 365/JAZ as an information service provider. The technical support and payment gate of this website is provided by Fair Game Software KFT., registered under the laws of Hungary, with tax registration number: 27107870-2-13, legal address: 2161 Csomád, Kossuth Lajos út 79.</p>
+          <p style="font-weight: 800">©2022 Fgfox.com. All rights reserved.</p>
+        </mj-text>
+         <mj-image css-class='bird-six' src="./img/two.png" width='132px' />
+      </mj-column>
+    </mj-section>
+
+    </mj-wrapper>
+  </mj-body>
+</mjml>
